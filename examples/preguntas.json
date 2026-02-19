@@ -1,0 +1,52 @@
+[
+    {
+        "pregunta": "¿Cuál es el objetivo principal de la Ley 21.778?",
+        "opciones": [
+            "Regular el funcionamiento de los clubes deportivos profesionales.",
+            "Estimular la actividad física y el deporte en los establecimientos educacionales.",
+            "Modificar el currículum de la asignatura de matemáticas.",
+            "Establecer sanciones para el sedentarismo en adultos mayores."
+        ],
+        "indice_correcta": 1
+    },
+    {
+        "pregunta": "Según el Artículo 4º, ¿cuántos minutos diarios de actividad física, juego o deporte se promueven para los estudiantes?",
+        "opciones": [
+            "Al menos 30 minutos.",
+            "Al menos 45 minutos.",
+            "Al menos 60 minutos.",
+            "Al menos 90 minutos."
+        ],
+        "indice_correcta": 2
+    },
+    {
+        "pregunta": "¿Qué establece el Artículo 6º sobre la relación entre los minutos de actividad de esta ley y la asignatura de Educación Física?",
+        "opciones": [
+            "Los minutos pueden reemplazar la clase de Educación Física si el director lo autoriza.",
+            "Los minutos son conmutables solo en la educación media.",
+            "En ningún caso se podrán conmutar los minutos por la asignatura de Educación Física y Salud.",
+            "Se pueden conmutar hasta un 50% de las horas de la asignatura."
+        ],
+        "indice_correcta": 2
+    },
+    {
+        "pregunta": "De acuerdo con el Artículo 1º, ¿qué tipo de actividad deben promover específicamente los establecimientos de educación parvularia?",
+        "opciones": [
+            "Deportes de alta competencia.",
+            "Ejercicios de fuerza muscular.",
+            "Práctica de juegos activos.",
+            "Clases teóricas de salud."
+        ],
+        "indice_correcta": 2
+    },
+    {
+        "pregunta": "¿Cómo se define la gradualidad de la entrada en vigencia de la ley en el artículo transitorio?",
+        "opciones": [
+            "Se aplica inmediatamente a todos los cursos.",
+            "Dos etapas: la primera para Parvularia a 4º Básico, la segunda para 5º Básico a 4º Medio.",
+            "Tres etapas de un año cada una para cubrir todos los niveles.",
+            "Una etapa para colegios públicos y otra posterior para colegios privados."
+        ],
+        "indice_correcta": 1
+    }
+]
