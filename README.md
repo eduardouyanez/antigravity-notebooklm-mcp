@@ -7,7 +7,7 @@
 <a name="english"></a>
 ## English
 
-This is a specialized guide and repository for implementing the **NotebookLM MCP Server** within **Antigravity**. While the server is based on the [notebooklm-mcp-server](https://github.com/gabote/notebooklm-mcp), this guide focuses on the unique authentication and configuration requirements for Antigravity users.
+This is a specialized guide and repository for implementing the **NotebookLM MCP Server** within **Antigravity**. While the server is based on the [notebooklm-mcp-cli](https://github.com/jacob-bd/notebooklm-mcp-cli), this guide focuses on the unique authentication and configuration requirements for Antigravity users.
 
 ### Features
 - **Full Notebook Access**: Create, list, and query your notebooks.
@@ -108,4 +108,4 @@ Agrega el servidor a tu archivo `mcp_config.json`:
 En la carpeta `/examples` encontrarás un prototipo de juego de trivia creado con **Phaser 3** que consume datos generados por NotebookLM.
 
 ---
-Basado en el trabajo de [Jacob Ben-David](https://github.com/gabote/notebooklm-mcp).
+Basado en el trabajo de [Jacob Ben-David](https://github.com/jacob-bd/notebooklm-mcp-cli).
