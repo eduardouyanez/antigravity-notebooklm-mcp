@@ -53,6 +53,18 @@ Add the server to your `mcp_config.json`:
 }
 ```
 
+### Multi-Account Support (The "Swapping" Strategy)
+
+If you need to use multiple accounts (e.g., Personal and Work), you can use a file-swapping strategy since the server uses a single `auth.json` file.
+
+1. **Setup**:
+   - Authenticate your first account and rename `~/.notebooklm-mcp/auth.json` to `auth-personal.json`.
+   - Authenticate your second account and rename the new `auth.json` to `auth-work.json`.
+
+2. **Switching Logic**:
+   - Copy the desired account file (e.g., `auth-work.json`) to `auth.json`.
+   - **CRITICAL**: Call the `mcp_notebooklm_refresh_auth` tool (or restart the server) to force the server to reload the session from disk.
+
 ---
 
 <a name="español"></a>
@@ -103,6 +115,18 @@ Agrega el servidor a tu archivo `mcp_config.json`:
   }
 }
 ```
+
+### Soporte Multi-cuenta (Estrategia de Intercambio)
+
+Si necesitas usar varias cuentas (ej. Personal y Trabajo), puedes usar una estrategia de intercambio de archivos ya que el servidor usa un único `auth.json`.
+
+1. **Configuración**:
+   - Autentica tu primera cuenta y renombra `~/.notebooklm-mcp/auth.json` a `auth-personal.json`.
+   - Autentica tu segunda cuenta y renombra el nuevo `auth.json` a `auth-work.json`.
+
+2. **Lógica de Cambio**:
+   - Copia el archivo de la cuenta deseada (ej. `auth-work.json`) a `auth.json`.
+   - **CRÍTICO**: Llama a la herramienta `mcp_notebooklm_refresh_auth` (o reinicia el servidor) para forzar al servidor a recargar la sesión desde el disco.
 
 ### Ejemplos Incluidos
 En la carpeta `/examples` encontrarás un prototipo de juego de trivia creado con **Phaser 3** que consume datos generados por NotebookLM.
